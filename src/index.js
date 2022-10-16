@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import * as Sentry from "@sentry/react";
+import * as Sentry from "@sentry/browser";
 import { BrowserTracing } from "@sentry/tracing";
 
 Sentry.init({
