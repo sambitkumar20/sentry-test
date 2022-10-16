@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/sentry-test/static/css/main.ba17183d.css",
-    "main.js": "/sentry-test/static/js/main.9a9adff4.js",
+    "main.js": "/sentry-test/static/js/main.76e93757.js",
     "static/js/27.7d9b943a.chunk.js": "/sentry-test/static/js/27.7d9b943a.chunk.js",
     "index.html": "/sentry-test/index.html"
   },
   "entrypoints": [
     "static/css/main.ba17183d.css",
-    "static/js/main.9a9adff4.js"
+    "static/js/main.76e93757.js"
   ]
 }
