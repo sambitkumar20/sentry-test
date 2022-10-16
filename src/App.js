@@ -2,7 +2,7 @@ import './App.css';
 
 function App() {
   const breakTheCode = () => {
-    throw new Error("Brokken code")
+    throw new Error("Broken code with @sentry/Browse")
   }
   return (
     <div className="App">

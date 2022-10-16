@@ -4,11 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import * as Sentry from "@sentry/browser";
-import { BrowserTracing } from "@sentry/tracing";
 
 Sentry.init({
     dsn: "https://05ce17c729af4704a82382537a521289@o4503988773912576.ingest.sentry.io/4503988823130112",
-    integrations: [new BrowserTracing()],
 
     // Set tracesSampleRate to 1.0 to capture 100%
     // of transactions for performance monitoring.
